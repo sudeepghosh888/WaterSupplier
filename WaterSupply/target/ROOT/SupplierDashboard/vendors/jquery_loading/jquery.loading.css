@@ -1,0 +1,19 @@
+<style>
+ 
+         
+		.contents {
+			min-height: 260px;
+			position: relative;
+		}
+		.loading {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			background: url('loading.gif') center center no-repeat white;
+		}
+		.loading.fancy {
+			background: url('loading.gif') center center no-repeat rgba(255,255,255,0.65);
+		}
+	</style>
